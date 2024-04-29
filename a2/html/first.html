@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/first.css">
+  <script src="../js/first.js"></script>
+</head>
+<body>
+  <!-- 最外层的div -->
+  <div id="out">
+    <div class = "add">
+      <div class="pictureAdd">
+          <img src="#" id="itemImg">
+          <input type="file" id="inputPicture" accept="image/*">
+        </div>
+        名称:<input type="text" id="inputName" value="">
+        配置<input type="file" id="config" accept=".json"> 
+        <input type="button" value="提交" id="tj">
+      </div>
+    <!-- 信息添加按钮 -->
+    <button id="add">添加信息</button>
+    <!-- 抽奖区域 -->
+    <div id="zhuan"></div>
+    <!-- 时间给定 -->
+    时间<input type="text" id="time">
+    <!-- 奖项的个数 -->
+    个数<input type="text" id="sum">
+    <!-- 开始按钮 -->
+    <button id="start">开始</button>
+    <button id="dc">导出</button>
+    <div id="end">
+      <div id="endImag">
+        <img src="#" alt="">
+      </div>
+      <div id="endName"></div>
+    </div>
+  </div>
+</body>
+
+</html>
